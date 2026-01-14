@@ -17,6 +17,7 @@ DEFAULT_MAPPINGS: Dict[str, List[str]] = {
     "Videos": ["mp4", "mov", "mkv", "avi", "webm"],
     "Audio": ["mp3", "wav", "m4a", "flac", "aac", "ogg"],
     "Documents": ["pdf", "doc", "docx", "txt", "rtf", "odt", "pages", "md"],
+    "Books": ["epub", "mobi", "azw", "azw3", "kfx", "cbz", "cbr"],
     "Spreadsheets": ["xls", "xlsx", "csv", "ods"],
     "Presentations": ["ppt", "pptx", "key"],
     "Archives": ["zip", "rar", "7z", "tar", "gz", "bz2", "tar.gz", "tar.bz2"],
