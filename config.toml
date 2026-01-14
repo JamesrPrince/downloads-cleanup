@@ -1,0 +1,37 @@
+# Downloads Organizer configuration
+
+# Folder to organize
+# downloads_dir = "~/Downloads"
+
+# When true, organize existing files on startup
+scan_existing = true
+
+# When true, keep watching for new files
+watch = true
+
+# Used when watchdog is not installed
+poll_interval_seconds = 3
+
+# Skip files modified more recently than this (helps avoid moving partial downloads)
+min_age_seconds = 3
+
+# Ignore hidden files like .DS_Store
+ignore_hidden = true
+
+# Print actions without moving files
+# dry_run = false
+
+# Folder name for file types that don't match any mapping
+other_folder = "Other"
+
+[mappings]
+Images = ["jpg", "jpeg", "png", "gif", "webp", "tiff", "svg", "heic"]
+Videos = ["mp4", "mov", "mkv", "avi", "webm"]
+Audio = ["mp3", "wav", "m4a", "flac", "aac", "ogg"]
+Documents = ["pdf", "doc", "docx", "txt", "rtf", "odt", "pages", "md"]
+Spreadsheets = ["xls", "xlsx", "csv", "ods"]
+Presentations = ["ppt", "pptx", "key"]
+Archives = ["zip", "rar", "7z", "tar", "gz", "bz2", "tar.gz", "tar.bz2"]
+Code = ["py", "js", "ts", "json", "yml", "yaml", "toml", "html", "css", "sh", "go", "rs"]
+Installers = ["dmg", "pkg", "app", "exe", "msi"]
+Fonts = ["ttf", "otf", "woff", "woff2"]
